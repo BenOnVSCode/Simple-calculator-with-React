@@ -72,3 +72,46 @@
     text-decoration: none ;
     color: #303030;
 }
+
+@media screen and (max-width: 505px) {
+    .container  {
+        width: 90vw ;
+    }
+    .screen {
+        width: 80vw ;
+    }
+
+    .btns-container {
+        width: 80vw ;
+        
+    }
+    .btn {
+        margin: .5rem ;
+    }
+    .row3, .row4 {
+        margin-left: 1.5rem ;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+
+    .btn {
+        margin: .3rem ;
+    }
+    .row3, .row4 {
+        margin-left: 1.5rem ;
+    }
+    
+}
+@media screen and (max-width: 370px) {
+
+    .btn {
+        margin: .3rem ;
+        width: 2.5rem ;
+        height: 2.5rem ;
+    }
+    .row3, .row4 {
+        margin-left: 1.5rem ;
+    }
+    
+}
